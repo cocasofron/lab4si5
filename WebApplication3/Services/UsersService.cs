@@ -71,6 +71,7 @@ namespace WebApplication3.Services
                 FirstName = user.FirstName,
                 Email = user.Email,
                 UserName = user.Username,
+                UserRole=user.UserRole,
                 Token = tokenHandler.WriteToken(token)
             };
 
