@@ -36,9 +36,9 @@ namespace Tests
                 var usersService = new UsersService(context, config);
                 var added = new WebApplication3.ViewModels.RegisterPostModel
                 {
-                    Email = "ovi@yahoo.com",
-                    FirstName = "ovidiu",
-                    LastName = "ovidiu",
+                    Email = "corina@yahoo.com",
+                    FirstName = "corina",
+                    LastName = "sofron",
                     Password = "123456",
                     Username = "test_username"
                 };
